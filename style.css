@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.top_heading{
+    width: 100%;
+    top: 0;
+    background-color: #a435f0;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    color: whitesmoke;
+    height: 100%;
+ 
+}
+
+.top_heading_content{
+    margin-right: 8px;
+}
+
+.top_nav{
+    background-color: azure;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* padding: 0px 2.4rem 0 0; */
+    /* font-size: 1.4rem;
+    font-weight: 400; */
+    z-index: 1010;
+    height: 100%;
+}
+
+.brand_logo{
+    width: 10%;
+    height: 10%;
+}
+
+.ucategory{
+    border: 0px;  
+}
+
+.search_input{
+    border: 1px solid black;
+    background-color: transparent;
+    width: 30rem;
+    height: 100%;
+    padding-left: 8px;
+    border-radius: 25px;
+}
+
+.form__container{
+    background-color: azure;
+    width: 90%;
+    height: 50px;
+    position: relative;
+}
+
+.search_bar{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn_login{
+    border: 1px solid black;
+    color: black;
+    padding: 12px 20px;
+}
+
+.btn_sign-up{
+    border: 1px solid black;
+    color: white;
+    padding: 12px 20px;
+    background-color: black;   
+}
+
+.btn_select_language{
+    padding: 12px 8px;
+}
