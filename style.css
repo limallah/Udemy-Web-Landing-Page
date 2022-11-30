@@ -1,3 +1,4 @@
+/* <!-- Header Section --> */
 *{
     margin: 0;
     padding: 0;
@@ -20,73 +21,186 @@ body{
     padding: 20px 0px;
     color: whitesmoke;
     height: 100%;
- 
 }
 
-.top_heading_content{
-    margin-right: 8px;
-}
-
-.top_nav{
-    background-color: azure;
-    width: 100%;
+nav{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    position: relative;
-    /* padding: 0px 2.4rem 0 0; */
-    /* font-size: 1.4rem;
-    font-weight: 400; */
-    z-index: 1010;
-    height: 100%;
+    justify-content: space-evenly;
+    flex: 1;
 }
 
-.brand_logo{
-    width: 10%;
-    height: 10%;
+nav div{
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width: fit-content;
 }
 
-.ucategory{
-    border: 0px;  
+div.search_wrap{
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 10px 0px;
 }
 
 .search_input{
-    border: 1px solid black;
-    background-color: transparent;
-    width: 30rem;
-    height: 100%;
-    padding-left: 8px;
-    border-radius: 25px;
+    border: hidden;
+    outline: none;
 }
 
-.form__container{
-    background-color: azure;
-    width: 90%;
-    height: 50px;
-    position: relative;
-}
-
-.search_bar{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
+.u_main{
+    border: hidden;
+    outline: none;
+    background: none;
 }
 
 .btn_login{
+    padding: 10px 20px;
     border: 1px solid black;
-    color: black;
-    padding: 12px 20px;
+    background: none; 
+    text-align: center;
 }
 
 .btn_sign-up{
+    padding: 10px 20px;
     border: 1px solid black;
-    color: white;
-    padding: 12px 20px;
-    background-color: black;   
+    background: black;  
+    color: white; 
+    text-align: center;
 }
 
-.btn_select_language{
-    padding: 12px 8px;
+/* <!-- Hero Section --> */
+/* .hero_bg_image{
+    display: flex;
+    justify-content: left;
+    z-index: 1010;
+} */
+
+.hero_bg{
+    width: 100%;
+    display: block;
+}
+
+.hero_banner{
+    width: 20rem;
+    height: 8rem;
+    background-color: white;
+    position: absolute;
+    padding: 10px;
+    top: 40px;
+    left: 12%;
+    padding-bottom: 0px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.hero_courses{
+    width: 95%;
+    margin-left: 2.5%;
+    overflow: auto;
+}
+
+.course_big{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+li{
+    font-weight: bold;
+    margin-right: 12px;
+    color: grey;
+    min-width: fit-content;
+}
+
+/* <!-- Courses Section --> */
+.courses_wrapper{
+    display: flex;
+    margin-top: 16px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+.card_course{
+    width: 95%;
+    margin-left: 2.5%;
+    border: 1px solid grey;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.btn_explore{
+padding: 12px 22px;
+border: 1px solid black;
+font-weight: bold;
+background-color: white;
+}
+
+.course_container{
+width: 240px;
+margin-bottom: 16px;
+margin-right: 10px;
+}
+
+.course_heading{
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+.instructor{
+    color: grey;
+    font-size: small;
+}
+
+.original_price{
+    text-decoration: line-through;
+    color: grey;
+}
+
+.mark{
+    width: initial;
+    background-color: rgb(216, 186, 13);
+    margin-top: 16px;
+    text-align: center;
+}
+
+.courses_wrapper-2{
+    display: flex;
+    margin-top: 16px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:center;
+    width: 95%;
+    margin-left: 2.5%;
+
+}
+
+.student-s{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 40px;
+    font-weight: bold;   
+}
+
+.test_category_container:not(category_heading){
+    display: flex;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 16px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:center;
+}
+.category_heading p{
+    display: none;
+    justify-content: initial;
 }
